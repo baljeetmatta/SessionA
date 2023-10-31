@@ -1,0 +1,20 @@
+<%-include("../header")%>
+<% data.forEach((item)=>{%>
+<div>
+    <div>
+        Name <%=item.name%>
+    </div>
+    <div>
+        Price <%=item.price%>
+    </div>
+    <div>
+        Description <textarea name="description"><%=item.description%></textarea>
+
+    </div>
+    <div>
+       <input type="submit" value="Create Product"/>
+    </div>
+
+</div>
+<%})%>
+<%-include("../footer")%>

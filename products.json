@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"First Product",
+        "description":"This is description",
+        "price":450,
+        "image":"https://picsum.photos/300/300"
+    },
+    {
+        "id":2,
+        "name":"Second Product",
+        "description":"This is Second description",
+        "price":650,
+        "image":"https://picsum.photos/300/300"
+    },
+    {
+        "id":3,
+        "name":"Thirdd Product",
+        "description":"This is Thirdd description",
+        "price":150,
+        "image":"https://picsum.photos/300/300"
+    },
+    {
+        "id":4,
+        "name":"Fourth Product",
+        "description":"This is Fourth description",
+        "price":1450,
+        "image":"https://picsum.photos/300/300"
+    }
+
+]

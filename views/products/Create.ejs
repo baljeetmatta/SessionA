@@ -1,0 +1,20 @@
+<%-include("../header")%>
+<form action="/products/create" method="post">
+<div>
+    <div>
+        Name <input type="text" name="name"/>
+    </div>
+    <div>
+        Price <input type="text" name="price"/>
+    </div>
+    <div>
+        Description <textarea name="description"></textarea>
+
+    </div>
+    <div>
+       <input type="submit" value="Create Product"/>
+    </div>
+
+</div>
+</form>
+<%-include("../footer")%>
